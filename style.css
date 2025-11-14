@@ -76,3 +76,10 @@
     border-radius: 100px;
     filter: drop-shadow(20px 20px 20px rgb(127, 80, 180));
 }
+
+.fabsdevlogo {
+    display: flex;
+    width: 100px;
+    
+
+}
