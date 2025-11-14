@@ -3,21 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Momo+Signature&display=swap" rel="stylesheet">
     <title>Notizblock</title>
-    <link rel="über" href="about.html" />
-    <link rel="stylesheet" href="style.css" />
-    <script src="darmode.js"></script>
-  </head>
-  <body class="myBody">
-    <header>
-      <nav class="navbar">
-        <a class="navtext" href="about.html">About us</a>
-        <a class="navtext" href="index.html">Notizblock</a>
-        <button class="btnjs" onclick="myFunction1()">Dark mode</button>
-      </nav>
-    </header>
-    <h1>Meine Gedanken</h1>
-    <input id="todoField" placeholder="Bitte Text eingeben" />
+    <link rel="über" href="about.html">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body class="myBody">
+ <header>
+    <nav class="navbar">
+    <a class="navtext" href="about.html">About us</a>
+    <a class="navtext" href="index.html">Notizblock</a>
+    </nav>
+</header>
+<h1>Meine Gedanken</h1>
+    <input id ="todoField" placeholder="Bitte Text eingeben">
     <button onclick="addTodo()">Speichern</button>
 
     <ul id="todoList"></ul>
