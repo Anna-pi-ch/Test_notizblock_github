@@ -22,7 +22,7 @@
 }
 
 button {
-    background-color: rgb(149, 49, 106);
+    background-color: rgb(149, 49, 116);
     border: none;
     color: white;
     padding: 3px 10px;
@@ -45,6 +45,7 @@ input {
 
  body {
   font-family: "Momo Signature", cursive;
+
  }
 
  
