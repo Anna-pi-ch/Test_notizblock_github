@@ -2,6 +2,10 @@
   background-color: rgba(206, 129, 129, 0.733);
   margin: 0px;
 }
+.dark-mode {
+  background-color: black;
+  color: white;
+}
 .navbar {
   background-color: #00000079;
   display: flex;
@@ -29,11 +33,15 @@
 .img_anna {
   width: 280px;
   height: 400px;
+  border-radius: 50px;
+  filter: drop-shadow(20px 20px 20px rgb(127, 80, 180));
 }
 
 .img_fabs {
   width: 280px;
   height: 400px;
+  border-radius: 50px;
+  filter: drop-shadow(20px 20px 20px rgb(127, 80, 180));
 }
 
 .section-fabs-anna {
@@ -48,4 +56,23 @@
   justify-content: center;
   margin-left: 100px;
   font-size: 30px;
+  filter: drop-shadow(20px 20px 20px rgb(0, 110, 255));
+}
+.footer {
+  background-color: #00000079;
+  display: flex;
+  gap: 36px;
+  flex-direction: space-between;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+  filter: drop-shadow(20px 20px 20px rgb(127, 80, 180));
+}
+
+.btnjs {
+    width: 100px;
+    height: 30px;
+    border-radius: 100px;
+    filter: drop-shadow(20px 20px 20px rgb(127, 80, 180));
 }
