@@ -4,7 +4,12 @@ function addTodo() {
 
     if (input.value.trim() === "") return; // Leere Eingabe verhindern
 
-    list.innerHTML += `<li>${input.value}</li>`; // Text speichern/anzeigen
+    // Notiz hinzufügen + Löschen-Button
+    list.innerHTML += `
+    <li>
+        ${input.value} 
+        <button onclick="this.parentElement.remove()">🗑️</button>
+    </li>`;
 
     input.value = ""; // Eingabefeld leeren
 }
