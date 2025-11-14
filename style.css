@@ -1,0 +1,22 @@
+.myBody {
+    background-color: rgba(206, 129, 129, 0.733);
+    margin: 0px;
+}
+.navbar {
+  background-color: #00000079;
+  display: flex;
+  gap: 36px;
+  flex-direction: space-between;
+  height: 64px;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+  filter: drop-shadow(20px 20px 20px rgb(127, 80, 180));
+}
+
+.navtext {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
