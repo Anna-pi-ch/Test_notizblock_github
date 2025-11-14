@@ -1,6 +1,6 @@
 .myBody {
-    background-color: rgba(206, 129, 129, 0.733);
-    margin: 0px;
+  background-color: rgba(206, 129, 129, 0.733);
+  margin: 0px;
 }
 .navbar {
   background-color: #00000079;
@@ -15,10 +15,39 @@
 }
 
 .navtext {
-    text-decoration: none;
-    color: white;
-    text-align: center;
+  text-decoration: none;
+  color: white;
+  text-align: center;
 }
 
 
 
+.about_us {
+  display: flex;
+  flex-direction: column;
+  padding: 80px;
+}
+
+.img_anna {
+  width: 280px;
+  height: 400px;
+}
+
+.img_fabs {
+  width: 280px;
+  height: 400px;
+}
+
+.section-fabs-anna {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.text_fabs {
+  display: flex;
+  justify-content: center;
+  margin-left: 100px;
+  font-size: 30px;
+}
